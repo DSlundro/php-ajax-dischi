@@ -1,0 +1,41 @@
+:root{
+    --bg-header:  #2E3A46;
+    --bg-main:    #1E2D3B;
+    --bg-card:    #2E3A46;
+    --text-card:  #808080;
+    --light:      white;
+    }
+
+main{
+    background-color: var(--bg-main);
+}
+
+header{
+    background-color: var(--bg-header);
+    }
+.logo{
+    padding: 10px 0 10px 30px;
+}
+.logo img{width: 50px;}
+
+.my-card-container{
+    background-color: var(--bg-card);
+    text-align: center;
+    padding: 20px;
+    height: 450px;
+}
+.my-card-container img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.my-card-container h5{
+    color: var(--light);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.my-card-container p{ 
+    margin: 0;
+    color: var(--text-card);
+}
+
+

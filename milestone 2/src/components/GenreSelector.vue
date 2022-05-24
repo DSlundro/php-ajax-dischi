@@ -3,10 +3,11 @@
         <select 
         class="form-select" 
         aria-label="Default select example"
+        v-for="(elem, index) in $database" :key="index"
         @change="$emit('changeSelectGenre')"
         @input="$emit('input', $event.target.value)"
         >
-            <option value="">Select the Genre</option>
+            <option value="">{{elem.genre}}</option>
             <option value="rock">Rock</option>
             <option value="pop">Pop</option>
             <option value="jazz">Jazz</option>

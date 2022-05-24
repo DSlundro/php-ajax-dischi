@@ -16,7 +16,7 @@
             <option value="Deep Purple">Deep Purple</option>
             <option value="Metallica">Metallica</option>
             <option value="Dave Weckl">Dave Weckl</option>
-            <option value="Michael Jacjson">Michael Jackson</option>
+            <option value="Michael Jackson">Michael Jackson</option>
         </select>
     </div>
 </template>
