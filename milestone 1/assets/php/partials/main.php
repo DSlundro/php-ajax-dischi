@@ -25,7 +25,7 @@
 </head>
 <body>
 <main>
-    <div class="container py-5" v-if="!loading">
+    <div class="container py-5">
         <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 min-vh-100">
             <?php foreach($database as $db) :?>
                 <div class="col d-flex">
@@ -40,9 +40,6 @@
                 </div>
             <?php endforeach?>
         </div>
-    </div>
-    <div v-else class="d-flex min-vh-100 justify-content-center align-items-center">
-        <h1>Loading...</h1>
     </div>
 </main>
 </body>

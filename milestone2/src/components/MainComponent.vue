@@ -23,7 +23,7 @@ export default {
     },
     data(){
         return{
-            API_URL: 'http://localhost/php/php-ajax-dischi/src/assets/php/database.php',
+            API_URL: 'http://localhost/php/php-ajax-dischi/milestone2/src/assets/php/database.php',
             authors: null,
             loading: true,
             error: null,
